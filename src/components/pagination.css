@@ -1,0 +1,15 @@
+.pagination_data {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 2rem;
+}
+.pagination_data button {
+  border: none;
+  outline: none;
+  background-color: blue;
+  border-radius: 8px;
+  color: #fff;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

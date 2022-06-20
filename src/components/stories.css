@@ -1,0 +1,30 @@
+.outerBox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innerBox {
+  margin-top: 1rem;
+}
+
+.card {
+  width: 28rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .outerBox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .innerBox {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
